@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.heading {
+  text-align: center;
+  font-family: Lobster;
+}
+.unorder-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.reposList {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}

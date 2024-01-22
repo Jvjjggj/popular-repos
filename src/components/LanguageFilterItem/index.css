@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.lang-btn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.add-style {
+  border: solid 1px #0284c7;
+  color: #0284c7;
+  border-radius: 5px;
+}
