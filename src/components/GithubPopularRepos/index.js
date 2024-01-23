@@ -102,8 +102,7 @@ class GithubPopularRepos extends Component {
   }
 
   changeLanguageId = async id => {
-    await this.setState({langaugeId: id})
-    this.getProducts()
+    this.setState({langaugeId: id}, this.getProducts)
   }
 
   languagesList = () => {
